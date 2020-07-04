@@ -1,3 +1,3 @@
 require 'pry'
 
-new_scente
+new_sentence = [ ]
