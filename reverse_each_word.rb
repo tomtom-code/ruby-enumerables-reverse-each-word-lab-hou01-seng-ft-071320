@@ -7,7 +7,7 @@ new_sentence = [ ]
 array = sentence.split("")
 
 array.collect do |element| 
-  new_sentence << element.reverse
+  new_sentence << 
 end
 
 new_sentence.join("")
