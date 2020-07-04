@@ -6,6 +6,6 @@ new_sentence = [ ]
 
 array = sentence.split("")
 
-array.collect {|element| new_sentence = element.reverse}
+array.collect {|element| new_sentence << element.reverse}
 
 end
