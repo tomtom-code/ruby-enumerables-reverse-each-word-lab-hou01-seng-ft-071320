@@ -6,7 +6,9 @@ new_sentence = [ ]
 
 array = sentence.split("")
 
-array.collect{|element| new_sentence << (element.reverse)}
+array.collect do |element| 
+  new_sentence << element.reverse
+end
 
 new_sentence.join("")
 
