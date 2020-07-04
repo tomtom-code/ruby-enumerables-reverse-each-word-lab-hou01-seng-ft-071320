@@ -8,4 +8,6 @@ array = sentence.split("")
 
 array.collect {|element| new_sentence << element.reverse}
 
+new_sentence.join("")
+
 end
